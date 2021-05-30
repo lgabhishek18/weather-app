@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+This repository contains a project that shows real time weather of delhi implemented with the help of react and redux.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
