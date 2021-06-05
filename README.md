@@ -1,4 +1,4 @@
-This repository contains a project that shows real time weather of delhi implemented with the help of react and redux.
+This repository contains a project that shows real time weather of any city implemented with the help of react and redux. API used is OpenWeatherMap API.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

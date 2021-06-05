@@ -1,15 +1,20 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { FetchWeather, Loading, WeatherData, } from "../weather/SliceWeather";
+import { Button } from "react-bootstrap";
+import { FetchWeather, Loading, WeatherData, SET_CITY, } from "../weather/SliceWeather";
 
-function ViewWeather() {
+function ViewWeather({ city }) {
   const dispatch = useDispatch();
   const loading = useSelector(Loading);
   const weatherData = useSelector(WeatherData);
 
   useEffect(() => {
-    dispatch(FetchWeather());
-  }, [dispatch]);
+    dispatch(FetchWeather(city));
+  }, [dispatch, city]);
+
+  const handleClick = () => {
+    dispatch(SET_CITY(""));
+  };
 
   const Loader = () => {
     return (
@@ -23,8 +28,12 @@ function ViewWeather() {
     return (
       <div className='p-2 d-flex flex-column align-items-center'>
         <h1 className='text-light'>{weatherData.main.temp} Degree celcius</h1>
-        <h5 className='text-light'>Delhi, India</h5>
-        <p className='text-white-50'>Developed By : ABHISHEK GUPTA</p>
+        <h5 className='text-light'>{weatherData.weather[0].main}</h5>
+        <p className='text-white-50'>{city}</p>
+        <Button variant={"outline-light"} onClick={handleClick}>
+          {" "}
+          Choose another city{" "}
+        </Button>
       </div>
     );
   };
