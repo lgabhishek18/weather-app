@@ -1,6 +1,5 @@
 import { Button, Modal } from "react-bootstrap";
 import React, { useState } from "react";
-// import { Modal } from "react-bootstrap";
 import { useDispatch } from "react-redux";
 import { SET_CITY } from "../weather/SliceWeather";
 

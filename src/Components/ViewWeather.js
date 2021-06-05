@@ -30,10 +30,7 @@ function ViewWeather({ city }) {
         <h1 className='text-light'>{weatherData.main.temp} Degree celcius</h1>
         <h5 className='text-light'>{weatherData.weather[0].main}</h5>
         <p className='text-white-50'>{city}</p>
-        <Button variant={"outline-light"} onClick={handleClick}>
-          {" "}
-          Choose another city{" "}
-        </Button>
+        <Button variant={"outline-light"} onClick={handleClick}>Choose another city</Button>
       </div>
     );
   };
