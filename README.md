@@ -7,7 +7,7 @@ Name - Abhishek Gupta
 
 Phone No - 9876543210
 
-My Key - abcdef123456
+API Key - abcdef123456
 
 ## Available Scripts
 
