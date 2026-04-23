@@ -7,7 +7,7 @@ Name - Abhishek Gupta
 
 Phone No - 9876543210
 
-Email - abcd1234@gmail.com
+API Key - abcd1234
 
 ## Available Scripts
 
