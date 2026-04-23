@@ -1,1 +1,3 @@
-Hello, what's up?
+Aware of the need for a Telco friendly platform, the main carriers in Europe, together with network function providers, joined under an MoU, to initiate the Sylva project addressing Telco and Edge use cases.
+
+The Open Source releases resulting from this project will incorporate the capabilities that are required for a CaaS to address specific use cases identified by European Telcos (such as 5G, O-RAN and Edge) and will be the basis for a common infrastructure among European operators allowing the federation and integration of edge applications. Having a common framework for Operators, NF vendors will be able demonstrate, at once, that their functionality can work on such general-purpose infrastructure with the assurance that it can be deployed on any compliant platform (saving time and costs to both vendors and operators). Additionally, a common reference framework will foster digital innovation across Europe for the digital ecosystem.
